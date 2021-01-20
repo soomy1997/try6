@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--start header-->
+    <nav style="float: left;" class="header" id="myHeader">
+        <img src="img/LOGO.png" alt="logo" id="logo-img">
+        <h3><a href="#home">Between the lines</a></h3>
+
+        <div class="header-right">
+
+            <SPAN id="search-box">
+                <form>
+                    <input type="text" name="search" placeholder="Search..">
+                </form>
+            </SPAN>
+            <img src="img/add-to-cart-461874.png" alt="cart" style="float: center; align-content: middle">
+            <a href="#about">Cart items (0)</a>
+        </div>
+
+    </nav>
+    <!--end header-->
+
+    <!--content start-->
+    <div class="content">
+
+        <div class="clearfix">
+            <div class="box">
+                <p><img src="img/book1.jpeg" width=180px></p>
+                <strong>Little Women</strong>
+                <p style="color: gray">Louisa May Alcott</p>
+                <p style="color: green">12.00$</p>
+            </div>
+            <div class="box">
+                <p><img src="img/book2.jpeg" alt="" width=180px></p>
+                <strong>The immortal<strong>
+                        <p style="color: gray">Louisa May Alcott</p>
+                        <p style="color: green">12.00$</p>
+            </div>
+            <div class="box">
+                <p><img src="img/book3.jpeg" alt="" width=180px></p>
+                <strong>The immortal<strong>
+                        <p style="color: gray">Louisa May Alcott</p>
+                        <p style="color: green">12.00$</p>
+            </div>
+            <div class="box">
+                <p><img src="img/book4.jpeg" alt="" width=180px></p>
+                <strong>The immortal<strong>
+                        <p style="color: gray">Louisa May Alcott</p>
+                        <p style="color: green">12.00$</p>
+            </div>
+            <div class="box">
+                <p><img src="img/book5.jpeg" alt="" width=180px></p>
+                <strong>The immortal<strong>
+                        <p style="color: gray">Louisa May Alcott</p>
+                        <p style="color: green">12.00$</p>
+            </div>
+        </div>
+    </div>
+
+    <!--content end-->
+
+
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+
+    </script>
+
+
+    <!--footer start-->
+    <footer class="first-footer">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th>Customer Care:</th>
+                    <th>Services:</th>
+                    <th>About Us:</th>
+                    <th> </th>
+                    <th class="special">Subscribe to OUR MAILING LIST:</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Contact us</td>
+                <td>Track Your Order</td>
+                <td>Our Story</td>
+                <td> </td>
+                <td class="special"><input type="email" name="email-input" placeholder="Your Email"></td>
+            </tr>
+            <tr>
+                <td>FAQ</td>
+                <td>Discount Rate</td>
+                <td>News & Events </td>
+                <td> </td>
+                <td class="special"><button class="subscribe-button">Subscribe!</button></td>
+            </tr>
+            <tr>
+                <td>Return & Exchange Policy</td>
+                <td>Gift Certificate</td>
+            </tr>
+        </table>
+
+    </footer>
+    <footer class="second-footer">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-snapchat-ghost"></a>
+        <span>Copyright &copy; 2020 Between The Line co.</span>
+
+    </footer>
+    <!--footer end-->
+
+</body>
+
+</html>

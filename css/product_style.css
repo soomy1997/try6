@@ -1,0 +1,102 @@
+
+
+                                                  /*...........HEADER...........*/
+
+header {  overflow: hidden;
+          height: 55px;
+          background: #F4ACB7;
+        }
+
+header ul li  {  position: relative;
+                 bottom: 19px;
+                 overflow: hidden;
+                 float: left;
+                 padding-right: 18%;
+              }
+
+header ul li a { text-decoration: none;
+                 color: black;
+               }
+
+
+header img {  position: relative;
+              bottom: 15px;
+              float: left;
+              height: 40px;
+              width: 40px;
+              margin: 10px;
+            }
+
+
+
+
+                                                      /* .........BODY........ */
+body {  margin: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+
+
+body section img { float: left;
+                   height: 300pt;
+                   width: 225pt;
+                   padding-right: 2%;
+                 }
+
+body section p small { color: #9D8189;
+                     }
+
+.description { font-size: 13pt;
+               padding: 1%;
+             }
+
+.price { font-weight: bold;
+         font-size: 17pt;
+       }
+
+.available {color: green;}
+
+
+                                                      /* ....SIDEBAR (CART).....*/
+
+body aside { float: right;
+             width: 20%;
+             height: 360px;
+             padding: 1%;
+             margin: 1%;
+             background-color: #FFCAD4;
+           }
+
+body aside img{ position: relative;
+                top: 10px;
+                height: 30px;
+                width: 30px;
+              }
+
+body aside a { text-decoration: none;
+               background-color: #D8E2DC;
+               padding: 6.5%;
+               color: black;
+             }
+
+
+
+
+                                                      /*.........FOOTER.........*/
+
+footer {    background-color: #9D8189;
+            width: 100%;
+            text-align: left;
+            padding: 20px;
+            font-family: Raleway;
+            overflow: hidden;  /*made it so its in the bottom of the page*/
+        }
+
+footer ul li {  float: left;
+                overflow: hidden; /*list doesnt show bullet points*/
+                padding-left: 150px;
+                padding-right: 150px;
+              }
+
+footer ul li a { text-decoration: none;
+                  color: white;
+                }

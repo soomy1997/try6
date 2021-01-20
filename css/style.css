@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    padding: 16px;
+}
+
+/*header start*/
+.header {
+    overflow: hidden;
+    padding: 0px 5px 0px 10px;
+    background: #F4ACB7;
+    height: 55px;
+
+}
+
+#logo-img {
+
+    width: 50px;
+    height: 50px;
+}
+.header a {
+    float: left;
+    color: #333;
+    font-size: 30px;
+    font-family: 'Lobster';
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.header img {
+    float: left;
+    height: 45px;
+    width: 45px;
+    padding-top: 5px;
+}
+
+.header h3 {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    width: 35%;
+}
+
+.header-right a {
+    text-align: center;
+    padding: 16px 5px;
+    font-size: 18px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+input[type=text] {
+    width: 130px;
+    /*box-sizing: border-box;*/
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /*background-image: url('searchicon.png');
+  background-position: 10px 10px; */
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+#search-box {
+    float: right;
+    margin-top: 5px;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+/*header ends*/
+/******************************************************************************************/
+
+/*content start*/
+
+#cover {
+
+    width: 90%;
+    float: center;
+    z-index: 1;
+}
+
+#one {
+    font-family: 'Lacquer';
+    font-size: 40px;
+    text-align: right;
+    text-align: justify;
+    position: inherit;
+    right: 80px;
+}
+
+.content img {
+    float: left;
+}
+/*books container start*/
+/*
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto auto; Make the grid smaller than the container
+  grid-gap: 100px;
+  padding: 10px 0px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 20px ;
+  font-size: 20px 30px;
+    float: right;
+}
+.grid-container img{
+    float: left;
+    margin-bottom: 5px;
+}
+.grid-container p{
+    margin-top: 0px;
+}
+*/
+
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.clearfix div{
+/*    border: 1px solid black;*/
+}
+.box img{
+float: left;
+margin-right: 5px;
+}
+/*
+#sd{
+margin-left:10px
+padding-left: 10px;
+
+}
+*/
+
+
+/*books container ends*/
+
+
+/*contents ends*/
+
+/*******************************************************************************************/
+
+/* Style the footer */
+.first-footer {
+    background-color: #9D8189;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding: 16px;
+    font-family: Raleway;
+}
+
+.second-footer {
+    background-color: rgb(42, 48, 43);
+}
+
+table {
+    padding-left: 20px;
+    font-size: 12pt;
+    padding-bottom: 10px;
+}
+
+table * {
+    padding-right: 10px;
+    width: 20%;
+}
+
+th {
+    text-transform: uppercase;
+    color: rgb(34, 49, 97);
+}
+
+.special {
+
+    text-decoration: none;
+    color: rgb(255, 254, 242)
+}
+
+.special .subscribe-button {
+    width: 110px;
+
+}
+
+input[type=email] {
+    width: 80%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: 2px solid #555555;
+}
+
+.subscribe-button {
+    background-color: #FFFFFF;
+    color: black;
+    border: 2px solid #555555;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.subscribe-button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+/*social footer*/
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+span {
+    font-size: 12px;
+    color: grey;
+    text-align: right;
+    float: right;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*social footer ends*/
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+}
